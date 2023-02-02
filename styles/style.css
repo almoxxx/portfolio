@@ -33,13 +33,15 @@ h6 {
 .hero h1 {
   font-family: var(--heading-font-family);
   color: var(--fourth-colour);
-  font-size: 70px;
+  font-size: 150px;
+  font-weight: 100;
 }
 .hero p {
   font-family: var(--default-font-family);
-  font-weight: 200;
+  font-weight: 100;
   line-height: 30px;
   color: var(--fourth-colour);
+  font-size: 30px;
 }
 
 button {
@@ -64,24 +66,53 @@ button:hover {
 .subhero {
   background: var(--primary-background-gradient);
   color: var(--fourth-colour);
+  border-top: var(--primary-colour);
+  border-top-style: dotted;
+  border-top-width: 10px;
 }
 .subhero h3 {
+  font-size: 50px;
+  font-weight: 300;
 }
 .subhero p {
-  font-size: 10px;
+  font-size: 15px;
   padding: 20px;
   text-align: center;
 }
+.container {
+  display: grid;
+  justify-items: center;
+}
 .subhero .project-description {
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 100;
 }
 .project-introduction {
   text-align: center;
+  justify-items: center;
 }
 .subhero img {
   border-radius: 20px;
   background: var(--secondary-background-gradient);
+  max-height: 600px;
 }
 @media (max-width: 960px) {
+  .subhero img {
+    padding: 10px;
+  }
+  .subhero p {
+    font-size: 10px;
+  }
+  .subhero .project-description {
+    font-size: 13px;
+  }
+  .subhero h3 {
+    font-size: 25px;
+  }
+  .hero h1 {
+    font-size: 70px;
+  }
+  .hero p {
+    font-size: 15px;
+  }
 }
