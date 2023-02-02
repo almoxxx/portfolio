@@ -1,8 +1,49 @@
-h1 {
-  font-family: "Licorice", cursive;
-  font-weight: 700;
+:root {
+  --heading-font-family: "Licorice", cursive;
+  --default-font-family: "Arsenal", sans-serif;
+  --primary-colour: #283149;
+  --secondary-colour: #404b69;
+  --tertiary-colour: #00818a;
+  --fourth-colour: #dbedf3;
+  --primary-background-gradient: linear-gradient(
+    109.6deg,
+    rgb(0, 0, 0) 11.2%,
+    rgb(11, 132, 145) 91.1%
+  );
+  --secondary-background-gradient: linear-gradient(
+    15deg,
+    #13547a 0%,
+    #80d0c7 100%
+  );
 }
-p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+
+.hero {
+  text-align: center;
+  background: var(--primary-background-gradient);
+  padding: 70px 50px;
+}
+.hero h1 {
+  font-family: var(--heading-font-family);
+  color: var(--fourth-colour);
+  font-size: 70px;
+}
+.hero p {
+  font-family: var(--default-font-family);
+  font-weight: 200;
+  color: var(--fourth-colour);
+}
+
+button {
+  background-color: var(--tertiary-colour);
+  font-family: var(--default-font-family);
+  color: var(--primary-colour);
+  border: var(--secondary-colour);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: var(--primary-colour);
+  color: var(--tertiary-colour);
 }
