@@ -29,7 +29,7 @@ body {
   background: var(--primary-background-gradient);
 }
 .navbar {
-  background-color: var(--primary-background-gradient) !important;
+  background: var(--primary-background-gradient) !important;
 }
 .navbar .nav-link {
   color: var(--fourth-colour) !important;
@@ -193,6 +193,12 @@ button:hover {
   }
   .content-technologies img {
     max-width: 20px;
+  }
+  a {
+    font-size: 12px;
+  }
+  p {
+    font-size: smaller;
   }
 }
 footer {
