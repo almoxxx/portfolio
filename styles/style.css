@@ -199,8 +199,16 @@ footer {
   background-color: var(--primary-background-gradient);
   margin: 10px;
   padding: 20px 20px;
+  font-size: 10px;
+  color: black;
 }
-
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  text-decoration: underline;
+}
 footer .email-link a {
   font-family: var(--default-font-family);
   color: var(--fourth-colour);
