@@ -150,9 +150,6 @@ button:hover {
 .about-page-technologies .container {
   font-size: 13px;
   font-weight: 300;
-  display: flexbox;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 .about-page-technologies img {
   max-width: 30px;
