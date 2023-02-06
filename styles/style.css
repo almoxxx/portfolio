@@ -28,9 +28,14 @@ h6 {
 body {
   background: var(--primary-background-gradient);
 }
+.navbar {
+  background-color: var(--primary-background-gradient) !important;
+}
+.navbar .nav-link {
+  color: var(--fourth-colour) !important;
+}
 .hero {
   text-align: center;
-
   padding: 70px 50px;
 }
 .hero h1 {
@@ -66,7 +71,19 @@ button:hover {
   background: var(--tertiary-colour);
   font-weight: 100;
 }
-a {
+.content a {
+  margin: 20px;
+  padding: 10px;
+  background-color: var(--tertiary-colour);
+  color: var(--primary-colour);
+  border: var(--secondary-colour);
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: var(--default-font-family);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero a {
   margin: 20px;
   padding: 10px;
   background-color: var(--tertiary-colour);
