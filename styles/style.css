@@ -25,9 +25,12 @@ h6 {
   font-family: var(--heading-font-family);
 }
 
+body {
+  background: var(--primary-background-gradient);
+}
 .hero {
   text-align: center;
-  background: var(--primary-background-gradient);
+
   padding: 70px 50px;
 }
 .hero h1 {
@@ -64,7 +67,6 @@ button:hover {
   font-weight: 100;
 }
 .subhero {
-  background: var(--primary-background-gradient);
   color: var(--fourth-colour);
   border-top: var(--primary-colour);
   border-top-style: dotted;
@@ -114,5 +116,54 @@ button:hover {
   }
   .hero p {
     font-size: 15px;
+  }
+}
+
+.about-page {
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  background: var(--secondary-background-gradient);
+  color: var(--primary-colour);
+}
+.about-page h1 {
+  font-weight: 500;
+  padding: 20px;
+  margin: 40px;
+}
+.about-page img {
+  max-height: 500px;
+}
+.about-page p {
+  padding: 40px;
+  font-weight: 100;
+}
+
+.about-page-technologies {
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  background: var(--secondary-background-gradient);
+  color: var(--primary-colour);
+}
+
+.about-page-technologies .container {
+  font-size: 13px;
+  font-weight: 300;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about-page-technologies img {
+  max-width: 30px;
+}
+
+@media (max-width: 960px) {
+  .about-page-technologies .container {
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .about-page-technologies img {
+    max-width: 20px;
   }
 }
