@@ -95,7 +95,7 @@ button:hover {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-a:hover {
+.content a:hover {
   background-color: var(--primary-colour);
   color: var(--tertiary-colour);
 }
@@ -194,4 +194,38 @@ a:hover {
   .content-technologies img {
     max-width: 20px;
   }
+}
+footer {
+  background-color: var(--primary-background-gradient);
+  margin: 10px;
+  padding: 20px 20px;
+}
+
+footer .email-link a {
+  font-family: var(--default-font-family);
+  color: var(--fourth-colour);
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 100;
+}
+footer .email-link a:hover {
+  color: var(--tertiary-colour);
+  font-size: 16px;
+  font-weight: 300;
+  font-size: 25px;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a {
+  background-color: var(--primary-background-gradient);
+  border-radius: 50%;
+  margin: 0px 20px;
+  padding: 10px 15px;
+  color: var(--fourth-colour);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+footer .social-links a:hover {
+  background-color: var(--tertiary-colour);
+  color: var(--secondary-colour);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all 150ms ease-in-out;
 }
