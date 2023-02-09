@@ -204,7 +204,11 @@ button:hover {
   p {
     font-size: smaller;
   }
+  footer a {
+    font-size: 8px;
+  }
 }
+
 footer {
   background-color: var(--primary-background-gradient);
   margin: 10px;
