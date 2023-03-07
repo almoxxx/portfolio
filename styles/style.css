@@ -253,3 +253,11 @@ footer .social-links a:hover {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   transition: all 150ms ease-in-out;
 }
+
+footer #open-source-link {
+  text-decoration: none;
+  color: black;
+  font-family: var(--default-font-family);
+  font-size: 10px;
+  background-color: transparent;
+}
