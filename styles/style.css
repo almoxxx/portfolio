@@ -171,7 +171,9 @@ button:hover {
   padding: 40px;
   font-weight: 100;
 }
-
+.content a {
+  font-size: 11px;
+}
 .content-technologies {
   text-align: center;
   margin: 20px;
@@ -206,6 +208,11 @@ button:hover {
   }
   footer a {
     font-size: 8px;
+  }
+  .content a {
+    font-size: 9px;
+    margin: 5px;
+    padding: 5px;
   }
 }
 
